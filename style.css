@@ -164,31 +164,32 @@ justify-content:flex-end;
 
 .image{
     width:100%;
-    height:100%;
+    height:150%;
+    object-fit:cover;
+   
+ 
+    
  
 
 }
 
 .workscreen{
     position:absolute;
-top:12%;
+top:0;
+bottom:0;
 right:11.5%;
   width: 76.3%;
-  height:75%;
-
-    overflow:scroll;
+  height:100%;
+  overflow:scroll;
+ 
+    
 
   
   
     
 }
 
-.screen{
-    width:100%;
-    height:150%;
 
-   
-}
 
 
 
